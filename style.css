@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(231, 229, 229);
+    padding: 20px;
+    font-family: sans-serif;
+}
+.image{
+    background-image: url(image/woman-8237167_1280.webp);
+    height: 250px;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 5px 0px 0px 0px;
+}
+i{
+    color: #089981;
+    padding: 5px;
+}
+p, h4, h3{
+    color: gray;
+}
+.nom{
+    font-size: 25px;
+    color: black;
+    padding-top: 215px;
+    padding-left: 20px;
+}
+.container-glob{
+    background-color: white;
+    border-radius: 5px 5px 0px 0px;
+    width: 25%;
+    box-shadow: 1px 1px 2px 2px rgba(128, 128, 128, 0.63);
+}
+.container{
+    padding: 17px;
+}
+.container .progress-container{
+    margin-bottom: 15px;
+}
+.container .progress-container h4{
+    padding-bottom: 10px;
+}
+.container .progress-container .progressbar{
+    position: relative;
+    width: 300px;
+    height: 18px;
+    border-radius: 30px;
+    background-color: rgb(192, 185, 185);
+    
+}
+.container .progress-container .progressbar span{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        color: white;
+        text-align: center;
+        border-radius: 30px;
+        background-color: #089981;
+}
+.container .progress-container .progressbar .un {
+    width: 90%;
+}
+.container .progress-container .progressbar .deux {
+    width: 80%;
+}
+.container .progress-container .progressbar .troi {
+    width: 75%;
+}
+.container .progress-container .progressbar .quatre {
+    width: 50%;
+}
+.container .progress-container .progressbar .cinq {
+    width: 100%;
+}
+.container .progress-container .progressbar .six {
+    width: 50%;
+}
+.container .progress-container .progressbar .peu{ 
+    width: 25%;
+}
+/* section deux */
+
+.info-glob{
+    width: 96%;
+    background-color: white;
+    box-shadow: 1px 1px 2px 2px rgba(128, 128, 128, 0.63);
+    padding: 20px;
+    line-height: 2;
+}
+.info-glob2 {
+    width: 96%;
+    background-color: white;
+    box-shadow: 1px 1px 2px 2px rgba(128, 128, 128, 0.63);
+    padding: 20px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.global{
+    display: flex;
+    gap: 20px;
+}
+h2>i{
+    padding-right: 15px;
+}
+h2{
+    color: gray;
+}
+.noir{
+    font-size: 14px;
+    color: black;
+}
+.jan{
+    color: #089981;
+}
+.vert{
+    color: white;
+    background-color: #089981;
+    padding: 6px;
+    border-radius: 5px;
+}
+.foot{
+    margin-top: 30px;
+    background-color: #089981;
+    text-align: center;
+    padding: 20px;
+}
+.p-foot{
+    color: white;
+    font-size: 18px;
+}
+.souligne{
+    text-decoration: underline;
+}
+.fa-brands{
+    color: white;
+}
+.fa{
+    padding: 20px;
+}
+@media screen and (max-width:900px){
+    .global {
+         display: flex;
+         flex-direction: column;
+        }
+        .container-glob{
+            width: 100%;
+        }
+    
+}
